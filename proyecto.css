@@ -1,0 +1,72 @@
+/* reset*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+html,body{
+    min-height:100vh;
+    font-family:fascinate, cursive;
+    font-family: lobster, cursive;
+}
+
+.Menu {
+    position: fixed;
+}
+
+/*Helper clases*/
+.full-screen{
+    min-width: 100vw;
+    min-height:100vh ;
+} 
+.container{
+
+    max-width: 90%;
+    margin: 0 auto;
+
+}
+/*color*/
+#Intro{
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    ;
+}
+
+#Quien_soy{
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    ;
+}
+
+#Cosas_feliz{
+    background: rgb(208, 174, 238);
+    background: radial-gradient(circle, rgba(208, 174, 238, 1) 49%, rgba(148, 187, 233, 1) 100%);
+}
+
+#Cosas_enojar{
+    background: rgb(252, 70, 107);
+    background: radial-gradient(circle, rgba(252, 70, 107, 0.8407738095238095) 52%, rgba(234, 251, 63, 1) 100%);
+}
+
+#Unico{
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.Menu a{
+    color:burlywood;
+    padding: 8px;
+}
+
+div.Menu a:hover{
+    color:palevioletred;
+    background:aqua;
+    transition: all ease 1s;
+}
+.container h1{
+    padding-top: 50px;
+}
