@@ -20,6 +20,10 @@ body{
     font-size: 20px;
 }
 
+p {
+    font-size: 30px;
+}
+
 /*Helper clases*/
 .full-screen{
     min-width: 100vw;
