@@ -20,6 +20,9 @@ body{
     font-size: 20px; 
     color: white;
     font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
@@ -75,7 +78,6 @@ p {
 }
 
 div.Menu a:hover{
-    color:palevioletred;
     background:cornflowerblue;
     transition: all ease 1s;
 }
