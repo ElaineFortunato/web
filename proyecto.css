@@ -38,6 +38,9 @@ p {
    color: black;
     font-weight: bold;
 }
+.mc{
+    width: 70%;
+}
 
 
 /*Helper clases*/
