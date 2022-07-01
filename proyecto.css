@@ -83,9 +83,16 @@ p {
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
 
+#personalidad{
+
+}
+
+#Virtudes
 #Agradecimientos{
     background: radial-gradient(circle, rgba(195,174,238,1) 26%, rgba(51,219,59,1) 94%);
 }
+
+
 .Menu a{
     color:white;
     padding: 8px;
